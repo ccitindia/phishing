@@ -16,9 +16,4 @@ fwrite($e,$d);
 fwrite($e,$t);
 fclose($e);
 
-
-
-?>
-<?php
-
 ?>
